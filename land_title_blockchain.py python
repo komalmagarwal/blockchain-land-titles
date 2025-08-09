@@ -1,0 +1,30 @@
+"""
+Blockchain Land Titles - Simulated Example
+Registers and verifies land titles on a blockchain test network using Web3.py.
+"""
+
+from web3 import Web3
+
+# Connect to local Ethereum testnet (Ganache or Infura)
+w3 = Web3(Web3.HTTPProvider("http://127.0.0.1:7545"))
+
+# Check connection
+if w3.is_connected():
+    print("Connected to Ethereum testnet.")
+else:
+    print("Connection failed.")
+
+# Example land record
+land_record = {
+    "property_id": "PROP1234",
+    "owner": "Jane Doe",
+    "size": "5 acres",
+    "location": "GPS(5.560014, -0.205744)"
+}
+
+print("Registering land record on blockchain...")
+print("Record:", land_record)
+
+# Simulate transaction (replace with smart contract call in real use case)
+tx_hash = "0xabc123..."  # Dummy hash for simulation
+print(f"Transaction complete. Record hash: {tx_hash}")
