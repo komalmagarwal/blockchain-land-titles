@@ -1,3 +1,7 @@
+> Built by [Komal Agarwal](https://github.com/komalmagarwal) - 
+> founder of Sola, exploring blockchain applications for financial 
+> inclusion in emerging markets.
+
 # Blockchain Land Titles
 
 This project demonstrates a prototype blockchain-based system for registering and verifying land title ownership.
@@ -17,4 +21,3 @@ A blockchain registry provides secure, tamper-proof, and easily verifiable recor
 - Verify ownership and transaction history on blockchain
 - Store supporting documents in a distributed file system (IPFS)
 
-## Sample Record
